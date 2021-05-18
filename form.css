@@ -1,0 +1,109 @@
+input[aria-invalid="true"], textarea[aria-invalid="true"] {
+  border: 3px solid #f00;
+  box-shadow: 0 0 4px 0 #f00;
+}
+
+@media (min-width: 720px) {
+  #fbbtn {
+    position: absolute;
+    left: 85%;
+    top: 32%;
+    transform: translate(-50%,-50%);
+  }
+}
+
+@media (max-width: 720px) {
+  #fbbtn {
+    position: absolute;
+    left: 90%;
+    top: 32%;
+    transform: translate(-50%,-50%);
+  }
+}
+
+@media (min-width: 720px) {
+  #ytbtn {
+    position: absolute;
+    left: 85%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+  }
+}
+
+@media (max-width: 720px) {
+  #ytbtn {
+    position: absolute;
+    left: 90%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+  }
+}
+
+@media (max-width: 420px) {
+  #form {
+    max-width: 200px;
+  }
+}
+
+@media (min-width: 720px) {
+  #twbtn {
+    position: absolute;
+    left: 85%;
+    top: 60%;
+    transform: translate(-50%,-50%);
+  }
+}
+
+@media (max-width: 720px) {
+  #twbtn {
+    position: absolute;
+    left: 90%;
+    top: 60%;
+    transform: translate(-50%,-50%);
+  }
+}
+
+@media (min-width: 800px) {
+  #imgTrlogo {
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+}
+
+@media (max-width: 800px) {
+  #imgTrlogo {
+    display: none;
+  }
+}
+
+.bColor {
+  border-radius: 50%;
+}
+
+#CUlogoimg {
+  max-width: 100%;
+}
+
+.inp {
+  width: 100%;
+  margin: 20px 0px;
+  background: rgba(0,0,0,0);
+  border: none;
+  /*border-bottom: 1px solid black;*/
+}
+
+#Gallery {
+  position: relative;
+}
+
+#Contact {
+  position: relative;
+}
+
+::-webkit-input-placeholder {
+  color: rgb(0,0,0);
+  font-size: 16px;
+  letter-spacing: 2px;
+}

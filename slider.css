@@ -1,0 +1,31 @@
+@media (orientation:landscape) and (max-height: 500px) {
+  #testimonials {
+    display: none;
+  }
+}
+
+.slideshow {
+  /*background-color: white;*/
+  width: 500px;
+  padding: 30px;
+  margin: 20px;
+  /*transition-duration: 9000ms;*/
+  box-sizing: border-box;
+  border-radius: 40px;
+  box-shadow: 13px 13px rgba(211, 216, 224,0.80);
+  text-align: center;
+  display: none;
+  /*min-height: 300px;*/
+}
+
+@media (max-width: 480px) {
+  .slideshow {
+    width: 300px;
+  }
+}
+
+@media (max-width: 680px) and (min-width:480px) {
+  .slideshow {
+    width: 400px;
+  }
+}
