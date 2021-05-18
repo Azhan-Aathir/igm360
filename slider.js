@@ -1,7 +1,7 @@
 //var W,H;
 var slideIndex = 0;
 
-showSlides();
+document.onload=showSlides();
 
 function showSlides() {
     var width = window.innerWidth;
