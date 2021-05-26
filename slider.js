@@ -1,7 +1,10 @@
 //var W,H;
 var slideIndex = 0;
 
-document.onload=showSlides();
+document.addEventListener("DOMContentLoaded", function(){
+    showSlides();
+});
+
 
 function showSlides() {
     var width = window.innerWidth;
